@@ -20,7 +20,7 @@ a:visited {
 }
 
 h4 {
-    margin-bottom: 75px;
+    margin-bottom: 20px;
 }
 
 h1 {
@@ -35,7 +35,21 @@ h1 {
     border: rgba(40, 75, 40, 0.1) groove 2px;
     border-radius: 10px;
 }
+#icons {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
 
+#icons li {
+   margin: 10px;
+
+}
+
+  #icons img {
+    margin-right: 8px;
+}
 
 /* CSS class Selectors */
 .picture {
@@ -78,4 +92,8 @@ h1 {
   font-weight: bold;
   font-family: cursive, Arial, sans-serife; 
 
+}
+.btn:hover {
+    background-color: rgba(34, 64, 34, 0.8);
+    cursor: pointer;
 }
